@@ -1,3 +1,3 @@
 # Angular4ToDo
-Simple ToDo made by Angular 4 and Laravel
+ToDo made by Angular 4 and Laravel. User token authorization, registration, CRUD for tasks.
 
