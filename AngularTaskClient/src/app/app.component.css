@@ -1,0 +1,57 @@
+.container-form{
+  width: 40%;
+}
+
+button{
+  width:100%;
+}
+
+.help-block{
+  color:red;
+}
+
+li.list-group-item.active.nav-item a{
+  color:white;
+}
+
+.nav{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.user-list, .nav{
+  text-align: center;
+}
+
+.alert-danger, .alert-success{
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  right: 0;
+}
+
+.fa-user-o{
+  font-size: 50px;
+}
+
+.task-list{
+  margin-top: 10px;
+}
+
+.task-list .fa:not(.fa-check-square-o):hover{
+  cursor: pointer;
+}
+
+.task-list .fa-check-square-o, .fa-square-o{
+  font-size: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.task-list .fa-times{
+    font-size: 25px;
+    float: right;
+  }
+
+.task-list img{
+  max-width: 5%
+}

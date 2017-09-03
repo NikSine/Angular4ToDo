@@ -1,0 +1,9 @@
+<div [@fadeInAnimation]="">
+  <ul class="list-group user-list">
+    <li class="list-group-item" *ngFor="let userinfo of user">
+      <i class="fa fa-user-o" aria-hidden="true"></i>
+    </li>
+    <li class="list-group-item" *ngFor="let userinfo of user">{{user[0].name}}</li>
+    <li class="list-group-item" *ngFor="let userinfo of user">{{user[0].email}}</li>
+  </ul>
+</div>
